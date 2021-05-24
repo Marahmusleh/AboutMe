@@ -1,0 +1,21 @@
+p3{
+    font-weight: bold;
+    font-size: 20px;
+    color:#0f6ca1; 
+    font:left;
+    text-align: center;
+}
+
+.wd h1{
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: 100px;
+    color:darkred
+}
+
+.wd h2{
+    text-align: justify;
+    color:rgb(107, 100, 3);
+    font-weight: bold;
+    text-align: center;
+}
