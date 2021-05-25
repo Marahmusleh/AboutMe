@@ -1,13 +1,11 @@
-p3{
+ul li{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     color:#0f6ca1; 
     font:left;
-    text-align: center;
 }
 
 .wd h1{
-    text-align:center;
     text-transform: uppercase;
     font-weight: 100px;
     color:darkred
@@ -17,5 +15,17 @@ p3{
     text-align: justify;
     color:rgb(107, 100, 3);
     font-weight: bold;
-    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(201, 35, 35);
+}
+
+ ol li{
+    font-size: 20px;
+    color:purple;
+    font-weight:bold;
+    
 }
