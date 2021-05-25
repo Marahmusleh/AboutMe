@@ -8,7 +8,7 @@ let userage = prompt ('Do you think I am older than 21?')
     userage = userage.toLowerCase()
 if(userage==='yes'){
     alert('Great, guessed right one more time !');
-    console.log(userage);
+    //console.log(userage);
 }else{
     alert('Incorrect, Try Again!')
 }
@@ -17,7 +17,7 @@ let user = prompt ('Do you think I am a girl?')
 user=user.toLowerCase()
 if(userage==='yes'){
     alert('Great, guessed right one more time !');
-    console.log(user);
+    //console.log(user);
 }else{
     alert('Incorrect, Try Again!')
 }
@@ -25,7 +25,7 @@ let userbirth = prompt ('Do you think I born in February?')
 userbirth = userbirth.toLowerCase()
 if(userbirth==='yes'){
     alert('Great, guessed right one more time ! ');
-    console.log(userbirth);
+    //console.log(userbirth);
 }else{
     alert('Incorrect, Try Again!')
 }
@@ -33,7 +33,7 @@ let userliving = prompt ('Do you think I live in Jordan ?')
 userliving = userliving.toLowerCase()
 if(userliving==='yes'){
     alert('Great! Thats right.');
-    console.log(userliving);
+    //console.log(userliving);
 }else{
     alert('Incorrect, Try Again!')
 }
