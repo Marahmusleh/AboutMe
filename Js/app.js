@@ -41,9 +41,9 @@ if(userbirth==='yes' || userbirth==='y'){
 }else{
     alert('Incorrect, Try Again!')
 }
-let userliving = prompt ('Do you think I live in Jordan ?')
-userliving = userliving.toLowerCase()
-if(userliving==='yes' || userliving==='y'){
+let userLiving = prompt ('Do you think I live in Jordan ?')
+userLiving = userLiving.toLowerCase()
+if(userLiving==='yes' || userLiving==='y'){
     alert('Great! Thats right.');
     counter++;
     //console.log(userliving);
