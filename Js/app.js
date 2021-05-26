@@ -7,7 +7,7 @@ alert('You will guess the answer with yes or no');
 
 let userage = prompt ('Do you think I am older than 21?')
     userage = userage.toLowerCase()
-if(userage==='yes'){
+if(userage==='yes' || userage==='y'){
     alert('Great, guessed right one more time !');
     counter++;
     //console.log(userage);
@@ -16,7 +16,7 @@ if(userage==='yes'){
 }
  let human = prompt ('Do you think I am a real person?')
     human= human.toLowerCase()
-if(human==='yes'){
+if(human==='yes' || human ==='y'){
     alert('Great, guessed right one more time !');
     counter++;
     //console.log(human);
@@ -25,7 +25,7 @@ if(human==='yes'){
 }
 let user = prompt ('Do you think I am a girl?')
 user=user.toLowerCase()
-if(userage==='yes'){
+if(user==='yes' || user==='y'){
     alert('Great, guessed right one more time !');
     counter++;
     //console.log(user);
@@ -34,7 +34,7 @@ if(userage==='yes'){
 }
 let userbirth = prompt ('Do you think I born in February?')
 userbirth = userbirth.toLowerCase()
-if(userbirth==='yes'){
+if(userbirth==='yes' || userbirth==='y'){
     alert('Great, guessed right one more time ! ');
     counter++;
     //console.log(userbirth);
@@ -43,7 +43,7 @@ if(userbirth==='yes'){
 }
 let userliving = prompt ('Do you think I live in Jordan ?')
 userliving = userliving.toLowerCase()
-if(userliving==='yes'){
+if(userliving==='yes' || userliving==='y'){
     alert('Great! Thats right.');
     counter++;
     //console.log(userliving);
