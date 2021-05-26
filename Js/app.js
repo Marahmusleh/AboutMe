@@ -75,22 +75,19 @@ else if(userNumber == 18){
     break;
 }
 }
-alert('You finished your attempts')
-
-let favcountry = ['Egypt','Hind','Australia','Turkey','Palestine']
-let mycountry = favcountry[4];
-for (let j=0; j<6 ; j++){
-let countryGuess = prompt('Guess what is my favourite country?');
-if(countryGuess == favcountry[4]){
+alert('You finished your attempts The Right answer is 18');
+let favCountry = ['Palestine','Hind','Australia','Turkey','Jordan'];
+outerLoop : for (let j=0; j<6 ; j++){
+let countryGuess = prompt('Guess what is my favourite countries?');
+for(let i =0 ; i<favCountry.length ; i++){
+    if(countryGuess ===favCountry[i]){
     alert('Thats Correct you are a creative thinker:D') ;
     counter++;
-    break;
-}else{
-    alert('Try Again :(');
-    }
+    break outerLoop;
 }
-alert('You finished your attempts');
-for(let index =0;index<favcountry.length;index++){
-    console.log(favcountry[index]);
+}
+if (j ===5){
+alert('You lost my favourite countries are' + favCountry);
+}
 }
 alert('Your score out of 7 is'+counter);
