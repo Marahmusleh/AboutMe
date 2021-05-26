@@ -5,52 +5,62 @@ username= username.toLowerCase()
 alert('Welcome! You are Akinator here!'+username);
 alert('You will guess the answer with yes or no');
 
-let userage = prompt ('Do you think I am older than 21?')
-    userage = userage.toLowerCase()
+function gettingTheAge(){ let userage = prompt ('Do you think I am older than 21?')
+    userage = userage.toLowerCase();
 if(userage==='yes' || userage==='y'){
     alert('Great, guessed right one more time !');
     counter++;
     //console.log(userage);
 }else{
-    alert('Incorrect, Try Again!')
+    alert('Incorrect')
 }
- let human = prompt ('Do you think I am a real person?')
-    human= human.toLowerCase()
+}
+gettingTheAge();
+function checkingReality() { let human = prompt ('Do you think I am a real person?')
+    human= human.toLowerCase();
 if(human==='yes' || human ==='y'){
     alert('Great, guessed right one more time !');
     counter++;
     //console.log(human);
 }else{
-    alert('Incorrect, Try Again!')
+    alert('Incorrect')
 }
-let user = prompt ('Do you think I am a girl?')
+}
+checkingReality();
+function determineGender() { let user = prompt ('Do you think I am a girl?')
 user=user.toLowerCase()
 if(user==='yes' || user==='y'){
     alert('Great, guessed right one more time !');
     counter++;
     //console.log(user);
 }else{
-    alert('Incorrect, Try Again!')
+    alert('Incorrect')
 }
-let userbirth = prompt ('Do you think I born in February?')
+}
+determineGender();
+function gettingUserBirth() {let userbirth = prompt ('Do you think I born in February?')
 userbirth = userbirth.toLowerCase()
 if(userbirth==='yes' || userbirth==='y'){
     alert('Great, guessed right one more time ! ');
     counter++;
     //console.log(userbirth);
 }else{
-    alert('Incorrect, Try Again!')
+    alert('Incorrect')
 }
-let userLiving = prompt ('Do you think I live in Jordan ?')
+}
+gettingUserBirth();
+function gettingUserLiving() {let userLiving = prompt ('Do you think I live in Jordan ?')
 userLiving = userLiving.toLowerCase()
 if(userLiving==='yes' || userLiving==='y'){
     alert('Great! Thats right.');
     counter++;
     //console.log(userliving);
 }else{
-    alert('Incorrect, Try Again!')
+    alert('Incorrect')
 }
-let mynum = 18;
+}
+gettingUserLiving();
+function guessNumber() { let mynum = 18;
 for(let i = 0 ; i<4 ; i++ ){
 let userNumber = prompt('Please guess a number between 10 and 20');
 userNumber= Number(userNumber);
@@ -75,8 +85,10 @@ else if(userNumber == 18){
     break;
 }
 }
+}
+guessNumber();
 alert('You finished your attempts The Right answer is 18');
-let favCountry = ['Palestine','Hind','Australia','Turkey','Jordan'];
+function gettingFavCountry() { let favCountry = ['Palestine','India','Australia','Turkey','Jordan'];
 outerLoop : for (let j=0; j<6 ; j++){
 let countryGuess = prompt('Guess what is my favourite countries?');
 for(let i =0 ; i<favCountry.length ; i++){
@@ -90,4 +102,6 @@ if (j ===5){
 alert('You lost my favourite countries are' + favCountry);
 }
 }
-alert('Your score out of 7 is'+counter);
+}
+gettingFavCountry();
+alert('Your score is '+counter + ' out of 7');
