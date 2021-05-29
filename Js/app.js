@@ -10,7 +10,6 @@ function gettingTheAge(){ let userage = prompt ('Do you think I am older than 21
 if(userage==='yes' || userage==='y'){
     alert('Great, guessed right one more time !');
     counter++;
-    //console.log(userage);
 }else{
     alert('Incorrect')
 }
@@ -21,7 +20,6 @@ function checkingReality() { let human = prompt ('Do you think I am a real perso
 if(human==='yes' || human ==='y'){
     alert('Great, guessed right one more time !');
     counter++;
-    //console.log(human);
 }else{
     alert('Incorrect')
 }
@@ -32,7 +30,6 @@ user=user.toLowerCase()
 if(user==='yes' || user==='y'){
     alert('Great, guessed right one more time !');
     counter++;
-    //console.log(user);
 }else{
     alert('Incorrect')
 }
@@ -43,7 +40,6 @@ userbirth = userbirth.toLowerCase()
 if(userbirth==='yes' || userbirth==='y'){
     alert('Great, guessed right one more time ! ');
     counter++;
-    //console.log(userbirth);
 }else{
     alert('Incorrect')
 }
@@ -54,7 +50,6 @@ userLiving = userLiving.toLowerCase()
 if(userLiving==='yes' || userLiving==='y'){
     alert('Great! Thats right.');
     counter++;
-    //console.log(userliving);
 }else{
     alert('Incorrect')
 }
